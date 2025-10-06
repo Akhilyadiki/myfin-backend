@@ -1,0 +1,10 @@
+# Shared defaults applied to all services
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+# Optional: common logging
+logging:
+  level:
+    root: INFO
